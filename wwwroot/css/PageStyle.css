@@ -1,0 +1,81 @@
+﻿@import "Metadata.css";
+
+body {
+    background-image: url('/eWallet.jpg');
+}
+
+#m1 {
+    color:deepskyblue;
+  
+}
+
+.div1 {
+    font-weight: bold;
+    padding-bottom: 200px;
+}
+div.Reg1{
+    text-align:center;
+}
+section.Regtab {
+    text-align: center;
+    background-color:wheat; 
+    border-radius:50px;
+}
+div.flex {
+    display: flex;
+   justify-content: center;
+}
+
+div.grid {
+    display: grid;
+    grid-template-areas:
+        "a1 a1.a3 a3"
+        "a2 a2 . a4 a6"
+        " . . . a5 a7 "
+        
+     
+}
+div.paygrid {
+    position: absolute;
+    bottom: 100px;
+    left: 20rem;
+    right: 20rem;
+    display: grid;
+}
+div.maindiv {
+
+  position:absolute;
+    bottom: 100px;
+    left:20rem;
+    right:20rem;
+}
+div.pay {
+    position: absolute;
+    top: 100px;
+    left: 42rem;
+    right: 20rem;
+}
+
+section.Register, .verify, .secndreg {
+    text-align: center;
+    background-color: wheat;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 150px;
+   
+    left:20rem;
+    right:20rem;
+}
+section.grid-secreg {
+    display: grid;
+    grid-row-gap: 10px;
+    grid-column-gap:0px;
+    grid-template-areas:
+        "b1 b1 b3 b5 b5 "
+        "b2 b2 b4 b6 b6"
+        "b7 b7 . b9 b9"
+        "b8 b8 . b10 b10"
+        "b11 b11 b11 b11 b11"
+        "b12 b12 b12 b12 b12"
+        ". b13 b13 b13 .";
+}

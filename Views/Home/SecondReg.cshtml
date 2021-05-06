@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "SecondReg";
+}
+<link href="~/css/PageStyle.css" rel="stylesheet" />
+<div>
+
+    <center><h1 style="color:cadetblue">Register</h1></center>
+    <section class="secndreg grid-secreg">
+
+
+        <div class="b1"><label>First Name</label><br /></div>
+        <div class="b2"><input type="text" placeholder="First Name" /><br /></div>
+        <div class="b3"><label>Middle Name</label><br /></div>
+        <div class="b4"><input type="text" placeholder="Middle Name" /><br /></div>
+        <div class="b5"><label>Last Name</label><br /></div>
+        <div class="b6"><input type="text" placeholder="Last Name" /><br /></div>
+        <div class="b7"><label>Date of Birth</label><br /></div>
+
+        <div class="b8"><input type="date" id="date"><br /></div>
+
+        <div class="b9"><label>Nationality</label><br /></div>
+        <div class="b10"><input type="text" placeholder="Choose a Nationality" /><br /></div>
+        <div class="b11"><label>Address</label><br /></div>
+        <div class="b12"><input type="text" placeholder="Address" /><br /></div>
+        <div class="b13"><a asp-action="Payment"><button class="btn btn-secondary btn-block">Register</button></a></div>
+
+    </section>
+
+    <div class="maindiv">
+        <center><a href="">Contact Us</a>|<a href="">Terms & Conditions</a>|<a href="">Disclaimer</a></center>
+    </div>
+
+
+</div>
