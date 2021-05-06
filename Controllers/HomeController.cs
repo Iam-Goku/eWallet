@@ -42,6 +42,14 @@ namespace eWallet.Controllers
         {
             return View();
         }
+        public IActionResult Secpay()
+        {
+            return View();
+        }
+        public IActionResult Finish()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
